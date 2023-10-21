@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'blue-l': '#edf2f7',
+        'blue-m': '#e3ebf2',
+        'blue-d': '#dde4eb',
+        'red-m': '#ea2a2e',
+        'grey-m': '#718096',
+      },
+      inset: {
+        '45': '45%',
       },
     },
   },
