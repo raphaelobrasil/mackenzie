@@ -11,12 +11,9 @@ const config: Config = {
       colors: {
         'blue-l': '#edf2f7',
         'blue-m': '#e3ebf2',
-        'blue-d': '#dde4eb',
+        'blue-d': '#c5d3e8',
         'red-m': '#ea2a2e',
         'grey-m': '#718096',
-      },
-      inset: {
-        '45': '45%',
       },
       backgroundImage: {
         'close-b': "url('/imgs/close.png')",
@@ -31,6 +28,8 @@ const config: Config = {
         smx: '300px',
         sm: '370px',
         mdx: '506px',
+        'md-2': '900px',
+        'md-3': '978px',
       },
     },
   },

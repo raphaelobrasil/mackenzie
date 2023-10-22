@@ -7,12 +7,12 @@ export const KebabMenu: React.FC<{
     className={`
       ${
         changeIcon
-          ? 'bg-close-b hover:bg-close-h'
-          : 'bg-kebab-b hover:bg-kebab-h'
+          ? 'fixed bg-close-b hover:bg-close-h'
+          : 'absolute bg-kebab-b hover:bg-kebab-h'
       } 
       z-20 h-[16px] w-[16px] cursor-pointer 
       bg-cover bg-center bg-no-repeat 
-      max-md:absolute md:hidden
+      md:hidden
     `}
   />
 )
