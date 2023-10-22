@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex gap-x-8">
-          <div className="max-md-3:w-[40vw] flex w-[45vw] flex-col-reverse gap-y-8">
+          <div className="flex w-[45vw] flex-col-reverse gap-y-8 max-md-3:w-[40vw]">
             <Image
               src={`/imgs/${CardList[1].img}`}
               alt="Com mais de 150 anos de história"
@@ -45,7 +45,7 @@ export default function Home() {
               <p className="text-grey-m">{CardList[1].description}</p>
             </div>
           </div>
-          <div className="max-md-3:w-[40vw] flex w-[45vw] flex-col gap-y-8">
+          <div className="flex w-[45vw] flex-col gap-y-8 max-md-3:w-[40vw]">
             <Image
               src={`/imgs/${CardList[2].img}`}
               alt="Com mais de 150 anos de história"
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </main>
       <main className="absolute left-12 top-[200px] flex flex-col gap-y-8 pb-8 md:hidden">
-        <div className="max-md-3:w-[80vw] flex w-[45vw] flex-col gap-y-8 max-sm:w-[70vw]">
+        <div className="flex w-[45vw] flex-col gap-y-8 max-md-3:w-[80vw] max-sm:w-[70vw]">
           <Image
             src={`/imgs/${CardListResponsive[0].img}`}
             alt="Com mais de 150 anos de história"
@@ -100,7 +100,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-md-3:w-[80vw] flex w-[45vw] flex-col gap-y-8 max-sm:w-[70vw]">
+        <div className="flex w-[45vw] flex-col gap-y-8 max-md-3:w-[80vw] max-sm:w-[70vw]">
           <Image
             src={`/imgs/${CardListResponsive[1].img}`}
             alt="Com mais de 150 anos de história"
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-md-3:w-[80vw] flex w-[45vw] flex-col gap-y-8 max-sm:w-[70vw]">
+        <div className="flex w-[45vw] flex-col gap-y-8 max-md-3:w-[80vw] max-sm:w-[70vw]">
           <Image
             src={`/imgs/${CardListResponsive[2].img}`}
             alt="Com mais de 150 anos de história"
@@ -128,7 +128,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-md-3:w-[80vw] flex w-[45vw] flex-col gap-y-8 max-sm:w-[70vw]">
+        <div className="flex w-[45vw] flex-col gap-y-8 max-md-3:w-[80vw] max-sm:w-[70vw]">
           <Image
             src={`/imgs/${CardListResponsive[3].img}`}
             alt="Com mais de 150 anos de história"
