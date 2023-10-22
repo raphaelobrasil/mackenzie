@@ -6,8 +6,8 @@ export const ButtonWithFill: React.FC<{
   <div
     onClick={onClick}
     className={`
-      w-fit cursor-pointer rounded-md border border-white
-      py-2 pl-12 pr-3 font-bold 
+      w-fit cursor-pointer select-none rounded-md border
+      border-white py-2 pl-12 pr-3 font-bold
       ${
         outline
           ? 'bg-red-m text-white hover:bg-white hover:text-red-m'

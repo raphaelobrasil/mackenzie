@@ -6,8 +6,8 @@ export const ButtonNoFill: React.FC<{
   <div
     onClick={onClick}
     className={`
-      w-fit cursor-pointer rounded-md border border-transparent 
-      py-2 pl-12 pr-3 font-bold
+      w-fit cursor-pointer select-none rounded-md border 
+      border-transparent py-2 pl-12 pr-3 font-bold
       ${
         inverseTheme
           ? 'text-white hover:border-white '
