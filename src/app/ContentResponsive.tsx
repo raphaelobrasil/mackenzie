@@ -12,12 +12,18 @@ export const ContentResponsive = () => (
         isMobile
         key={`Portrait-${key}`}
       >
-        {data?.title && <CardRoot.title title={data.title} />}
+        {data?.title && (
+          <div className="flex w-full justify-start">
+            <CardRoot.title title={data.title} />
+          </div>
+        )}
         <CardRoot.Description description={data.description} />
         {!!data?.hasButton && (
-          <ButtonRoot.NoFill onClick={() => console.log(CardButton.MORE)}>
-            {CardButton.MORE}
-          </ButtonRoot.NoFill>
+          <div className="flex w-full justify-end">
+            <ButtonRoot.NoFill onClick={() => console.log(CardButton.MORE)}>
+              {CardButton.MORE}
+            </ButtonRoot.NoFill>
+          </div>
         )}
       </CardRoot.Portrait>
     ))}
