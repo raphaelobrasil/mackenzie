@@ -18,6 +18,20 @@ const config: Config = {
       inset: {
         '45': '45%',
       },
+      backgroundImage: {
+        'close-b': "url('/imgs/close.png')",
+        'close-h': "url('/imgs/closeHover.png')",
+        'kebab-b': "url('/imgs/kebab.png')",
+        'kebab-h': "url('/imgs/kebabHover.png')",
+      },
+      boxShadow: {
+        sideBar: '1px 0px 10px 0px rgba(0,0,0,0.75)',
+      },
+      screens: {
+        smx: '300px',
+        sm: '370px',
+        mdx: '506px',
+      },
     },
   },
   plugins: [],
