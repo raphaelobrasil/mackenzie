@@ -1,7 +1,6 @@
 'use client'
 import { Menu, Header } from '@components/index'
-import { Content } from './Content'
-import { ContentResponsive } from './ContentResponsive'
+import { Content, ContentResponsive } from './Content'
 
 export default function Home() {
   return (
