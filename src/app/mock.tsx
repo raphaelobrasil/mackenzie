@@ -52,7 +52,7 @@ export const CardListResponsive = [
   {
     description:
       'Nós, os Sistemas de Ensino Mackenzie, somos líderes na oferta de uma proposta educacional sustentada pela tradição. Com materiais didáticos e soluções didático-pedagógicas, atendemos mais de 400 escolas, incluindo unidades próprias e parceiras. Destacamo-nos como o sistema de ensino cristão mais relevante academicamente no país, baseado em uma cosmovisão bíblica.',
-    img: 'imgBsmall.png',
+    img: 'imgBSmall.png',
     alt: 'Ensino líder de proposta educacional',
   },
   {
