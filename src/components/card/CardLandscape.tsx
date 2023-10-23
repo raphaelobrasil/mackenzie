@@ -12,7 +12,7 @@ export const CardLandscape = (props: ICardModel) => (
     <div
       className={`
         ${props.alignStart ? 'items-start' : 'items-center'} 
-        flex flex-col gap-y-8
+        flex flex-1 flex-col gap-y-8
       `}
     >
       {props.children}
